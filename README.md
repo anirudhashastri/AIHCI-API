@@ -17,8 +17,4 @@ For the reflection, I would discuss challenges like:
    - What I learned about working with generative AI, particularly in crafting creative outputs from simple prompts.
    - How this knowledge could be applied in future projects like building chatbot interfaces or other creative applications.
 
----
 
-I’ll package the code files and the README in a zip file or upload them to a GitHub repo for submission.
-
-Would you like me to assist with specific parts of the code or documentation?
