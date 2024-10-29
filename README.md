@@ -86,9 +86,13 @@ pip install groq dotenv pyttsx3 pyaudio SpeechRecognition
 
 ### Instructions
 
-- Open and run the `GroqAPI.ipynb` notebook in Jupyter to execute each cell step-by-step.
+- Open and run the `GroqAPI.ipynb` notebook in Jupyter to execute each cell step-by-step. This is the basic implementation of plugging in the API with a few options for proppts you can select from.
 - When you reach the final cell, the API will generate a response to your input prompt.
 - The response will display in the console and be read aloud by the TTS system.
+
+- Following this run `GroqAPInteractive.ipynb` this is an interactive voice based code. 
+- On running all the cells it will give you a set of options of microphones from your local system. Choose any known microphone (incase 1st choice doest work try a few other options).
+- Speak to the system and it will answer your questions. 
 
 ---
 
