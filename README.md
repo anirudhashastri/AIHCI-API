@@ -19,7 +19,7 @@ This project demonstrates how to integrate with the Groq API to generate a creat
 2. Run the following command to create a new environment:
 
     ```bash
-    conda create -n groq_api_env python=3.8
+    conda create -n groq_api_env python=3.10
     ```
 
 3. Activate the environment:
@@ -41,7 +41,7 @@ pip install groq dotenv pyttsx3 pyaudio SpeechRecognition
 - `dotenv`: Manages environment variables securely.
 - `pyttsx3`: Handles offline text-to-speech.
 - `pyaudio`: Enables audio output for `pyttsx3`.
-- `SpeechRecognition` : Enables to convert speach to text
+- `SpeechRecognition` : Enables to convert speech to text
 
 ### Step 3: Obtain a Groq API Key
 
@@ -115,4 +115,3 @@ This experience opens opportunities to leverage generative AI APIs for applicati
 - **Code Files**: Ensure `GroqAPI.ipynb`, `GroqAPInteractive.ipynb`,`.env`, and `.gitignore` files are included.
 - **Documentation**: This README file serves as both documentation and reflection.
 - **Submission**: Zip all files or push them to a GitHub repository and share the link.
-
