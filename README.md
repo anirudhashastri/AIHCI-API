@@ -65,6 +65,7 @@ pip install groq dotenv pyttsx3 pyaudio SpeechRecognition
 1. Visit the [Groq API website](https://www.groq.com) and sign up for a developer account.
 2. Generate a free API key from your dashboard under **API Keys**.
 3. Copy this key for use in the next step.
+4. I have also provided a key for ease of useage in the APIKEY.txt
 
 ### Step 4: Configure the `.env` File
 
