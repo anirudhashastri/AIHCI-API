@@ -1,6 +1,21 @@
 
 # Groq API Integration Project
 
+## Table of Contents
+- [Overview](#overview)
+- [Setup Instructions](#setup-instructions)
+  - [Step 1: Create an Anaconda Environment](#step-1-create-an-anaconda-environment)
+  - [Step 2: Install Required Packages](#step-2-install-required-packages)
+  - [Step 3: Obtain a Groq API Key](#step-3-obtain-a-groq-api-key)
+  - [Step 4: Configure the .env File](#step-4-configure-the-env-file)
+- [Using Jupyter Notebooks in VS Code](#using-jupyter-notebooks-in-vs-code)
+- [Description of Provided Notebooks](#description-of-provided-notebooks)
+- [Task Details](#task-details)
+- [Reflection on the Experience](#reflection-on-the-experience)
+- [Submission Checklist](#submission-checklist)
+
+
+
 ## Overview
 This project demonstrates how to integrate with the Groq API to generate a creative "Hello World" message. It uses Python and leverages Anaconda for environment management. The project also includes text-to-speech functionality, allowing the response to be read aloud.
 
@@ -115,3 +130,34 @@ This experience opens opportunities to leverage generative AI APIs for applicati
 - **Code Files**: Ensure `GroqAPI.ipynb`, `GroqAPInteractive.ipynb`,`.env`, and `.gitignore` files are included.
 - **Documentation**: This README file serves as both documentation and reflection.
 - **Submission**: Zip all files or push them to a GitHub repository and share the link.
+
+
+## Using Jupyter Notebooks in VS Code
+
+### Adding the Jupyter Notebook Extension
+To work with Jupyter Notebooks in Visual Studio Code (VS Code), you need to install the Jupyter extension:
+1. Open VS Code.
+2. Go to the Extensions view by clicking on the square icon in the sidebar or by pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac).
+3. Search for "Jupyter" and install the extension provided by Microsoft.
+
+This extension allows you to open, view, and run `.ipynb` notebook files directly in VS Code.
+
+### Selecting the Environment for the Jupyter Kernel
+After creating your new environment (`groq_api_env`), you can select it as the kernel in VS Code to ensure the notebook uses the correct environment and packages:
+1. Open a Jupyter Notebook file (`.ipynb`) in VS Code.
+2. Click on the kernel name at the top right of the notebook interface.
+3. In the dropdown, select your environment (`groq_api_env`). If you don’t see it, you may need to restart VS Code or check that the environment is properly activated.
+
+This setup ensures that your notebook will use all packages installed in the `groq_api_env` environment.
+
+---
+
+## Description of Provided Notebooks
+
+This repository includes the following `.ipynb` files:
+
+- **GroqAPI.ipynb**: This notebook demonstrates the core integration with the Groq API, including setting up the API key, making a request to the API, and converting the response to speech output. It serves as the main example of how to interact with Groq and generate conversational responses.
+
+- **GroqAPInteractive.ipynb**: An interactive notebook that expands on the initial setup by including examples for handling user prompts in real time. It provides an interactive way to input text and see Groq API responses, showcasing practical usage scenarios of conversational AI.
+
+These descriptions should help you understand the purpose and usage of each notebook included in the project.
