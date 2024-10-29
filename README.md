@@ -8,6 +8,8 @@
   - [Step 2: Install Required Packages](#step-2-install-required-packages)
   - [Step 3: Obtain a Groq API Key](#step-3-obtain-a-groq-api-key)
   - [Step 4: Configure the .env File](#step-4-configure-the-env-file)
+- [Description of Provided Notebooks](#Description-of-Provided-Notebooks)
+- [Running the Application](#Running-the-Application)  
 - [Using Jupyter Notebooks in VS Code](#using-jupyter-notebooks-in-vs-code)
 - [Description of Provided Notebooks](#description-of-provided-notebooks)
 - [Task Details](#task-details)
@@ -76,7 +78,17 @@ pip install groq dotenv pyttsx3 pyaudio SpeechRecognition
 3. For security, ensure `.env` is listed in `.gitignore` (included in this project) to avoid accidentally committing sensitive information.
 
 ---
+## Description of Provided Notebooks
 
+This repository includes the following `.ipynb` files:
+
+- **GroqAPI.ipynb**: This notebook demonstrates the core integration with the Groq API, including setting up the API key, making a request to the API, and converting the response to speech output. It serves as the main example of how to interact with Groq and generate conversational responses.
+
+- **GroqAPInteractive.ipynb**: An interactive notebook that expands on the initial setup by including examples for handling user prompts in real time. It provides an interactive way to input text and see Groq API responses, showcasing practical usage scenarios of conversational AI.
+
+These descriptions should help you understand the purpose and usage of each notebook included in the project.
+
+---
 ## Running the Application
 
 1. **Load Environment Variables**: The application uses `dotenv` to load environment variables from `.env`.
@@ -125,7 +137,7 @@ Integrating the Groq API was smooth, by using the API i did not face any challen
 This project highlighted the flexibility of generative AI APIs in creating dynamic, conversational outputs. It reinforced the importance of secure environment variable handling and API key management for application security.By using the API I did not have to worry about compute power of my laptop and setup of different package to ensure the LLM runs on gpu for fast responses as the API takes care of this in the backend at the server it is acessing.
 
 ### Future Applications
-This experience opens opportunities to leverage generative AI APIs for applications , real-time language translation, help blind people interact with something like `GroqAPInteractive.ipynb` .
+This experience opens opportunities to leverage generative AI APIs for applications , real-time language translation, help blind people interact with something like `GroqAPInteractive.ipynb` . My final project for AI-HCI class is built on the same idea.
 
 ---
 
@@ -156,12 +168,3 @@ This setup ensures that your notebook will use all packages installed in the `gr
 
 ---
 
-## Description of Provided Notebooks
-
-This repository includes the following `.ipynb` files:
-
-- **GroqAPI.ipynb**: This notebook demonstrates the core integration with the Groq API, including setting up the API key, making a request to the API, and converting the response to speech output. It serves as the main example of how to interact with Groq and generate conversational responses.
-
-- **GroqAPInteractive.ipynb**: An interactive notebook that expands on the initial setup by including examples for handling user prompts in real time. It provides an interactive way to input text and see Groq API responses, showcasing practical usage scenarios of conversational AI.
-
-These descriptions should help you understand the purpose and usage of each notebook included in the project.
